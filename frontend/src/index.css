@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.student-form {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.student-form input {
+  padding: 12px;
+  font-size: 16px;
+}
+
+.student-form button {
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.message {
+  text-align: center;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background: #eeeeee;
+}
